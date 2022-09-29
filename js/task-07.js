@@ -10,6 +10,6 @@ textRef.style.fontSize = `${inputRef.value}px`
 const inputChange = (event) => {
 const defaulFontSize = inputRef; 
 textRef.style.fontSize =` ${event.target.value}px`  
-}
+};
 
-inputRef.addEventListener('input', inputChange)
+inputRef.addEventListener('input', inputChange);
