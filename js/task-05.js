@@ -8,7 +8,6 @@ const defaultNameLable = refs.nameLable.textContent;
 
 refs.input.addEventListener('input', onInputChange);
 
-// const a = refs.input.textContent.trim()
 
 function onInputChange(event) {
     if (refs.input.value.trim() === ''){
