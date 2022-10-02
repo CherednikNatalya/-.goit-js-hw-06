@@ -7,7 +7,8 @@ const item = document.querySelectorAll('.item');
 
 item.forEach (item => {
    const title = item.firstChild;
-   const amounElements = item.lastChild;
+   const amounElements = item.lastElementChild.children;
+  
    console.log(`Category: ${title.textContent}`);
    console.log(`Elements: ${amounElements.length}`);
 });
